@@ -54,7 +54,7 @@ const Header = () => {
             return;
         }
         try {
-            const response = await fetch('http://localhost:4000/api/referral', {
+            const response = await fetch('https://accredian-backend-task-ml7a.onrender.com/api/referral', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
